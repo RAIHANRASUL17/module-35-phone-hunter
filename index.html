@@ -18,7 +18,7 @@
         <section>
             <div class="mb-3 w-75 ">
                 <label for="exampleFormControlInput1" class="form-label text-center">Please Search</label>
-                <div class="d-flex justify-content align-content gap-4 row row-cols-1 row-cols-md-3 ">
+                <div class="d-flex justify-content align-content gap-4 ">
                     <input type="text" class="form-control text-center" id="search-field" placeholder="search your phones">
                 <button id="btn-search" class="btn btn-primary text-white">search</button>
                 </div>
@@ -28,14 +28,16 @@
         <!--(step-1) phones-container section alawys put id on the div -->
         <section >
 
-            <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4 my-5">
-                
+            <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4 my-5"> 
                 <!-- <div class="col"> -->
                     <!-- single-card to send to innerHTML start  -->
                     
                      <!-- single-card to send to innerHTML End  -->
-                <!-- </div> -->
-                
+                <!-- </div> --> 
+            </div>
+            <!-- (step-3) display no phone alr messag part -->
+            <div id="no-phone-found" class="d-none">
+                <h3 class="text-warning">heeeiii! write the phone in English and don't write phones:</h3>
             </div>
 
         </section>
